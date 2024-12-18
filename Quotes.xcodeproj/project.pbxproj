@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		E4FC93CE2D12D0F400D61B93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FC93CD2D12D0F400D61B93 /* AppDelegate.swift */; };
 		E4FC93D02D12D0F400D61B93 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FC93CF2D12D0F400D61B93 /* SceneDelegate.swift */; };
-		E4FC93D22D12D0F400D61B93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FC93D12D12D0F400D61B93 /* ViewController.swift */; };
 		E4FC93D82D12D0F400D61B93 /* Quotes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E4FC93D62D12D0F400D61B93 /* Quotes.xcdatamodeld */; };
 		E4FC93DA2D12D0F500D61B93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4FC93D92D12D0F500D61B93 /* Assets.xcassets */; };
 		E4FC93DD2D12D0F500D61B93 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E4FC93DC2D12D0F500D61B93 /* Base */; };
 		E4FC93E82D12D0F600D61B93 /* QuotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FC93E72D12D0F600D61B93 /* QuotesTests.swift */; };
 		E4FC93F22D12D0F600D61B93 /* QuotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FC93F12D12D0F600D61B93 /* QuotesUITests.swift */; };
 		E4FC93F42D12D0F600D61B93 /* QuotesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FC93F32D12D0F600D61B93 /* QuotesUITestsLaunchTests.swift */; };
+		E4FC94022D12DA0300D61B93 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FC94012D12DA0300D61B93 /* MainTabBarController.swift */; };
+		E4FC94052D12DB2F00D61B93 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FC94042D12DB2F00D61B93 /* FavoritesViewController.swift */; };
+		E4FC94072D12DB4A00D61B93 /* FamousViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FC94062D12DB4A00D61B93 /* FamousViewController.swift */; };
+		E4FC94092D12DB6B00D61B93 /* QuoteSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FC94082D12DB6B00D61B93 /* QuoteSearchViewController.swift */; };
+		E4FC94102D12F3E200D61B93 /* UiColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FC940F2D12F3E200D61B93 /* UiColor+.swift */; };
+		E4FC94122D12F5AD00D61B93 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FC94112D12F5AD00D61B93 /* AppColors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +44,6 @@
 		E4FC93CA2D12D0F400D61B93 /* Quotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4FC93CD2D12D0F400D61B93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4FC93CF2D12D0F400D61B93 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E4FC93D12D12D0F400D61B93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E4FC93D72D12D0F400D61B93 /* Quotes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Quotes.xcdatamodel; sourceTree = "<group>"; };
 		E4FC93D92D12D0F500D61B93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4FC93DC2D12D0F500D61B93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,12 @@
 		E4FC93ED2D12D0F600D61B93 /* QuotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuotesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4FC93F12D12D0F600D61B93 /* QuotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesUITests.swift; sourceTree = "<group>"; };
 		E4FC93F32D12D0F600D61B93 /* QuotesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E4FC94012D12DA0300D61B93 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		E4FC94042D12DB2F00D61B93 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		E4FC94062D12DB4A00D61B93 /* FamousViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamousViewController.swift; sourceTree = "<group>"; };
+		E4FC94082D12DB6B00D61B93 /* QuoteSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteSearchViewController.swift; sourceTree = "<group>"; };
+		E4FC940F2D12F3E200D61B93 /* UiColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UiColor+.swift"; sourceTree = "<group>"; };
+		E4FC94112D12F5AD00D61B93 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +109,17 @@
 		E4FC93CC2D12D0F400D61B93 /* Quotes */ = {
 			isa = PBXGroup;
 			children = (
-				E4FC93CD2D12D0F400D61B93 /* AppDelegate.swift */,
-				E4FC93CF2D12D0F400D61B93 /* SceneDelegate.swift */,
-				E4FC93D12D12D0F400D61B93 /* ViewController.swift */,
+				E4FC940A2D12F2B200D61B93 /* MainTabBar */,
+				E4FC940B2D12F2C300D61B93 /* Favorites */,
+				E4FC940C2D12F2D400D61B93 /* Famous */,
+				E4FC940D2D12F2E600D61B93 /* QuoteSearch */,
+				E4FC94002D12D47B00D61B93 /* App */,
+				E4FC940E2D12F3C300D61B93 /* Extensions */,
 				E4FC93D92D12D0F500D61B93 /* Assets.xcassets */,
 				E4FC93DB2D12D0F500D61B93 /* LaunchScreen.storyboard */,
 				E4FC93DE2D12D0F500D61B93 /* Info.plist */,
 				E4FC93D62D12D0F400D61B93 /* Quotes.xcdatamodeld */,
+				E4FC94112D12F5AD00D61B93 /* AppColors.swift */,
 			);
 			path = Quotes;
 			sourceTree = "<group>";
@@ -125,6 +139,55 @@
 				E4FC93F32D12D0F600D61B93 /* QuotesUITestsLaunchTests.swift */,
 			);
 			path = QuotesUITests;
+			sourceTree = "<group>";
+		};
+		E4FC94002D12D47B00D61B93 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E4FC93CD2D12D0F400D61B93 /* AppDelegate.swift */,
+				E4FC93CF2D12D0F400D61B93 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E4FC940A2D12F2B200D61B93 /* MainTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				E4FC94012D12DA0300D61B93 /* MainTabBarController.swift */,
+			);
+			path = MainTabBar;
+			sourceTree = "<group>";
+		};
+		E4FC940B2D12F2C300D61B93 /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				E4FC94042D12DB2F00D61B93 /* FavoritesViewController.swift */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		E4FC940C2D12F2D400D61B93 /* Famous */ = {
+			isa = PBXGroup;
+			children = (
+				E4FC94062D12DB4A00D61B93 /* FamousViewController.swift */,
+			);
+			path = Famous;
+			sourceTree = "<group>";
+		};
+		E4FC940D2D12F2E600D61B93 /* QuoteSearch */ = {
+			isa = PBXGroup;
+			children = (
+				E4FC94082D12DB6B00D61B93 /* QuoteSearchViewController.swift */,
+			);
+			path = QuoteSearch;
+			sourceTree = "<group>";
+		};
+		E4FC940E2D12F3C300D61B93 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E4FC940F2D12F3E200D61B93 /* UiColor+.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,10 +320,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4FC94122D12F5AD00D61B93 /* AppColors.swift in Sources */,
 				E4FC93D82D12D0F400D61B93 /* Quotes.xcdatamodeld in Sources */,
-				E4FC93D22D12D0F400D61B93 /* ViewController.swift in Sources */,
+				E4FC94102D12F3E200D61B93 /* UiColor+.swift in Sources */,
+				E4FC94022D12DA0300D61B93 /* MainTabBarController.swift in Sources */,
 				E4FC93CE2D12D0F400D61B93 /* AppDelegate.swift in Sources */,
+				E4FC94052D12DB2F00D61B93 /* FavoritesViewController.swift in Sources */,
+				E4FC94092D12DB6B00D61B93 /* QuoteSearchViewController.swift in Sources */,
 				E4FC93D02D12D0F400D61B93 /* SceneDelegate.swift in Sources */,
+				E4FC94072D12DB4A00D61B93 /* FamousViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
